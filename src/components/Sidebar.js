@@ -1,3 +1,5 @@
+
+
 const Sidebar = () => {
     return ( 
         <div className="flex-col items-stretch min-h-full flex-nowrap px-0 relative">
@@ -25,7 +27,8 @@ const Sidebar = () => {
               </li>
             </ul>
           </div>
-        </div> );
+        </div> 
+        );
 }
  
 export default Sidebar;
